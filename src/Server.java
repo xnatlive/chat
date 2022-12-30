@@ -55,6 +55,7 @@ public class Server implements Runnable{
             for (ConnectionHandler ch :connections) {
 
                     ch.shutdown();
+                    
                 }
             }catch (IOException ex){
             //can not handle
